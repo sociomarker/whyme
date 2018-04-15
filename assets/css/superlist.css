@@ -2383,7 +2383,7 @@ output {
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
-  
+
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
@@ -6303,7 +6303,7 @@ button.close {
     font-size: 36px;
     font-weight: 300;
     margin: 0px;
-    padding: 0px; 
+    padding: 0px;
     text-align: left;
   }
   .page-header p {
@@ -6555,17 +6555,19 @@ blockquote {
   background-image: url("../img/tmp/slider-large-3.jpg");
   background-position: center center;
   margin: -80px -750px 80px -750px;
-  padding: 70px 750px;
+  padding: 20px 750px;
   position: relative; }
   .document-title h1 {
     color: #fff;
-    font-size: 36px;
-    margin: 0px;
+    font-size: 23px;
+    margin: 0 20px !important;
     padding: 0px;
     position: relative;
-    text-align: center;
+    text-align: left;
     text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
-    z-index: 2; }
+    z-index: 2;
+
+  }
   .document-title:after {
     background-color: rgba(0, 0, 0, 0.4);
     bottom: 0px;
@@ -10615,7 +10617,7 @@ ol li {
       font-size: 13px;
       font-weight: 400;
       line-height: 24px; } }
-  
+
   /* read more toggle button*/
 .read-more-state {
   display: none;
@@ -10722,7 +10724,7 @@ ol li {
       margin: 0px 0px 5px 0px;
       position: relative;
       transition: all .15s linear;
-      color: #fff;  
+      color: #fff;
     }
       .widget .menu-advanced-2 li a {
         color: #fff;
@@ -10742,17 +10744,17 @@ ol li {
           background-color: #006699; }
         .widget .menu-advanced-2 li.active:after {
           color: #fff; }
-      
+
       .widget .menu-advanced-2 li:hover {
         background-color: rgba(255, 255, 255, 0.3); }
       .widget .menu-advanced-2 li:last-child {
         margin: 0px; }
       .menuright{ padding-left: 20px
-          
+
       }
-      
-      
-/* search bar admin page*/ 
+
+
+/* search bar admin page*/
 
 
 .admin-search {
@@ -10765,7 +10767,7 @@ ol li {
     width: 100%; }
     .admin-search:focus {
       border-color: rgba(255, 255, 255, 0.2);
-      color: #fff; }     
+      color: #fff; }
     .admin-search:after {
     color: rgba(0, 0, 0, 0.8);
     content: '\f002';
@@ -10774,4 +10776,3 @@ ol li {
     position: absolute;
     right: 14px;
     top: 11px; }
-      
