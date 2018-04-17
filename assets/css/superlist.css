@@ -90,6 +90,10 @@ audio:not([controls]) {
 template {
   display: none; }
 
+#search{
+  position: sticky; top:0;
+}
+
 a {
   background-color: transparent; }
 
@@ -6857,7 +6861,14 @@ ul.dropdown-menu li a {
 */
 .header {
   display: table-row;
-  height: 1px; }
+  height: 1px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
 .header-minimal .container-fluid {
   padding: 0px !important; }
