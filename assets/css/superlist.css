@@ -6433,7 +6433,8 @@ button.close {
 
 ::selection {
   color: #fff;
-  background: rgba(0, 159, 139, 0.7); }
+  background: #006699;
+}
 
 mark {
   border-radius: 4px;
@@ -8455,8 +8456,7 @@ h2.widgettitle {
 .card-row-image {
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 200px;
+  height: 262px;
   position: relative;
   width: 262px; }
   @media (max-width: 1199px) {
@@ -9070,7 +9070,7 @@ h2.widgettitle {
 .filter {
   background-color: #fff;
   margin: 0px 0px 40px 0px;
-  padding: 20px; }
+  padding: 10px; }
   .filter .checkbox-wrapper {
     margin-bottom: 10px; }
     .filter .checkbox-wrapper .checkbox {
@@ -10787,3 +10787,12 @@ ol li {
     position: absolute;
     right: 14px;
     top: 11px; }
+
+/* sticky search  */
+.floatingHeader {
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    z-index: 9999;
+    margin-left: 15px !important;
+  }
