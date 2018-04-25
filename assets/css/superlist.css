@@ -9328,11 +9328,11 @@ h2.widgettitle {
 .detail-banner {
   background-position: center center;
   background-size: 100% auto;
-  height: 500px;
+  height: 300px;
   position: relative; }
   @media (max-width: 767px) {
     .detail-banner {
-      height: 400px;
+      height: 300px;
       background-size: 100% 100%; } }
   .detail-banner:before {
     background: -webkit-linear-gradient(to right, rgba(0, 0, 0, 0.3) -10%, rgba(0, 0, 0, 0.5) 20%, rgba(0, 0, 0, 0.5) 40%, transparent 80%);
@@ -10631,7 +10631,7 @@ ol li {
 
   /* read more toggle button*/
 .read-more-state {
-  display: none;
+  display: none ;
 }
 
 .read-more-target {
@@ -10813,3 +10813,25 @@ ol li {
   .fa-secondary{
     color:#c6af5c !important;
   }
+
+  .table-borderless > tbody > tr > td,
+  .table-borderless > tbody > tr > th,
+  .table-borderless > tfoot > tr > td,
+  .table-borderless > tfoot > tr > th,
+  .table-borderless > thead > tr > td,
+  .table-borderless > thead > tr > th {
+      border: none;
+  }
+
+  .product-page-img{
+    height:100px;
+  }
+
+  .final-page-logo{
+    height: 150px;
+    width: 150px;
+  }
+
+.currentDay{
+    font-weight:bold;color:#006699;
+}
