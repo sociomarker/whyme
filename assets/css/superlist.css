@@ -8317,7 +8317,7 @@ h2.widgettitle {
     -webkit-backface-visiblity: hidden; }
 
 .card-simple-background {
-  height: 200px;
+  height: 262.5px;
   position: relative; }
   .card-simple-background img {
     width: 100%; }
@@ -10834,4 +10834,13 @@ ol li {
 
 .currentDay{
     font-weight:bold;color:#006699;
+}
+
+.second-button{
+  background-color:#c6af5c !important;
+  color: #ffffff !important;
+}
+
+.home-list{
+  height:200px !important;
 }
