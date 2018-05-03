@@ -10848,3 +10848,7 @@ ol li {
 .home-button{
   margin-bottom: 20px;
 }
+
+.prd-search{
+  height: 100px !important;
+}
