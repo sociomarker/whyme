@@ -15,6 +15,23 @@
     <link href="assets/css/superlist.css" rel="stylesheet" type="text/css" >
 
     <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+   <style type="text/css">
+<style>
+body {
+  margin: 0;
+}
+#navbar {
+   background-color: #fffff;
+     z-index: 20;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+</style>
+</style>
 
     <title>India Fastener - Connecting the Fasteners from India to the World</title>
 </head>
@@ -78,6 +95,66 @@
     </div><!-- /.header-wrapper -->
 </header><!-- /.header -->
 
+<!--start-->
+ <div id="navbar">
+  <form class="filter persist-header" method="post" action="?" >
+    <div class="row " id="search">
+        <div class="col-sm-0 col-md-2"></div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="form-group">
+                <input type="text" placeholder="Start typing (Company/Product)" class="form-control" required="required">
+            </div><!-- /.form-group -->
+        </div><!-- /.col-* -->
+
+        <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="form-group">
+                <select class="form-control" title="Location (Optional)">
+                    <option>Mumbai</option>
+                    <option>Bangalore</option>
+                    <option>Calcutta</option>
+                    <option>Hydrabad</option>
+                    <option>Gujarat</option>
+                </select>
+            </div><!-- /.form-group -->
+        </div><!-- /.col-* -->
+
+        <div class=" col-md-3 col-sm-6 col-xs-6">
+            <div class="form-group">
+                <select class="form-control" title="Product Category (Optional)">
+                    <option value="">Automotive</option>
+                    <option value="">Jobs</option>
+                    <option value="">Nightlife</option>
+                    <option value="">Services</option>
+                </select>
+            </div><!-- /.form-group -->
+        </div><!-- /.col-* -->
+        <div class="col-md-1 col-sm-5 col-xs-5">
+            <button type="submit" class="btn btn-primary" style="text-align:left; maring-top:-15px;">Search</button>
+        </div><!-- /.col-* -->
+    </div><!-- /.row -->
+  </form>
+
+</div>
+
+
+  <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+  <!--end-->
+
+
+
 
     <div class="main">
         <div class="main-inner">
@@ -125,7 +202,7 @@
 <div class="container">
     <div class="row detail-content">
     <div class="col-sm-7">
-	<h3> Products Offered</h3>
+    <h3> Products Offered</h3>
   <div class="table-responsive">
   <table class="table table-borderless">
     <tbody>
@@ -134,10 +211,8 @@
         <td><img src="assets/img/tmp/screw1.jpg" class="product-page-img"></td>
         <td><img src="assets/img/tmp/screw1.jpg" class="product-page-img"></td>
         <td><img src="assets/img/tmp/screw1.jpg" class="product-page-img"></td>
-        <td><img src="assets/img/tmp/screw1.jpg" class="product-page-img"></td>
       </tr>
       <tr>
-        <td><p>Screw Bolts</p> <!--Name of the product--></td>
         <td><p>Screw Bolts</p> <!--Name of the product--></td>
         <td><p>Screw Bolts</p> <!--Name of the product--></td>
         <td><p>Screw Bolts</p> <!--Name of the product--></td>
@@ -148,14 +223,14 @@
   </div>
   <a href="#">View More Product Details</a>
         <h2>About <span class="text-secondary">Siddhivinayak Enterprise</span></h2>
-			     <div class="detail-vcard">
+                 <div class="detail-vcard">
                 <div class="detail-logo">
                     <img src="assets/img/listing/logo.png" class="final-page-logo">
                 </div><!-- /.detail-logo -->
 
                 <div class="detail-contact">
                     <div class="detail-contact-email">
-                        <i class="fa fa-envelope-o"></i> <a href="mailto:#"> siddhivinayakdarshan@gmail.com	</a>
+                        <i class="fa fa-envelope-o"></i> <a href="mailto:#"> siddhivinayakdarshan@gmail.com </a>
                     </div>
                     <div class="detail-contact-phone">
                         <i class="fa fa-mobile-phone"></i> <a href="tel:#">+91 9821385559</a>
@@ -169,42 +244,42 @@
                     </div>
                 </div><!-- /.detail-contact -->
             </div><!-- /.detail-vcard -->
-			<div class="detail-description">
+            <div class="detail-description">
                             <div>
                                 <input type="checkbox" class="read-more-state" id="post-1" />
                                 <p class="read-more-wrap">
                                 Incorporated in the year 2007 , at Mumbai (Maharashtra, India) , we "Siddhivinayak Enterprise" , are one of the leading names engaged in
-				importing and supplying a wide range of Wing Nuts, Flange Nuts, Dome Bolts, etc.
+                importing and supplying a wide range of Wing Nuts, Flange Nuts, Dome Bolts, etc.
 
         <span class="read-more-target"> Being a quality conscious firm, our products are designed
-				with high precision at the vendor's end in order to meet the international quality standards. Our offered assortment is manufactured by an
-				experienced team of professionals in compliance with the international quality norms using the premium grade raw material and advance
-				technology at vendors' end. We procure our products from trustworthy and reputed vendors of the industry. Apart from this, our vendors
-				manufacture products in a well-equipped production unit by making use of premium quality factor inputs and sophisticated technology.
-				The products offered by us are appreciated for their features like outstanding performance, consistent functioning, dimensional accuracy
-				and long service life. The offered range is available in various sizes, shapes and dimensions as per the segregated requirements of our
+                with high precision at the vendor's end in order to meet the international quality standards. Our offered assortment is manufactured by an
+                experienced team of professionals in compliance with the international quality norms using the premium grade raw material and advance
+                technology at vendors' end. We procure our products from trustworthy and reputed vendors of the industry. Apart from this, our vendors
+                manufacture products in a well-equipped production unit by making use of premium quality factor inputs and sophisticated technology.
+                The products offered by us are appreciated for their features like outstanding performance, consistent functioning, dimensional accuracy
+                and long service life. The offered range is available in various sizes, shapes and dimensions as per the segregated requirements of our
                                 esteemed clients.<br>Owing to our rich vendor base, we are offering clients a wide range of products.
                                 These products are acquired from the reliable sources,
-				which are known for their position of repute in the industry. They are proficient in their field as they deliver to us only flawless products.
-				We have selected a panel of procurement agents, who are accountable to select our vendor base on some significant parameters like company
-				profile, goodwill in the market, track records, financial status, etc. With rich industry experience, we have emerged as a leading name
-				engaged in providing high quality products. Also, our professionals, with their in-depth domain expertise, are capable of executing all
-				the plans in a timely manner. Moreover, we are backed by a spacious warehousing unit that enables us to store our bulk consignments, before
-				transportation. Our wide warehouse is compartmentalized into different sections that enable us to keep our products separately according to
+                which are known for their position of repute in the industry. They are proficient in their field as they deliver to us only flawless products.
+                We have selected a panel of procurement agents, who are accountable to select our vendor base on some significant parameters like company
+                profile, goodwill in the market, track records, financial status, etc. With rich industry experience, we have emerged as a leading name
+                engaged in providing high quality products. Also, our professionals, with their in-depth domain expertise, are capable of executing all
+                the plans in a timely manner. Moreover, we are backed by a spacious warehousing unit that enables us to store our bulk consignments, before
+                transportation. Our wide warehouse is compartmentalized into different sections that enable us to keep our products separately according to
                                 their category.<br>
 
-				Quality has been the top most important priority of our organization since the establishment. Our procurement agents procure only premium
-				grade products only from the selected and trusted vendors of the industry. The vendors from whom our products are sourced are selected only
-				on the basis of their quality standards. Our organization has built a strong reputation in the market for ensuring foremost quality products
-				with modern techniques combined with high quality standards. The entire product range is rigorously tested on various parameters using latest
-				testing devices and tools by our quality controllers in order to deliver flawless products at the clients' end. Owing to our quality standards,
+                Quality has been the top most important priority of our organization since the establishment. Our procurement agents procure only premium
+                grade products only from the selected and trusted vendors of the industry. The vendors from whom our products are sourced are selected only
+                on the basis of their quality standards. Our organization has built a strong reputation in the market for ensuring foremost quality products
+                with modern techniques combined with high quality standards. The entire product range is rigorously tested on various parameters using latest
+                testing devices and tools by our quality controllers in order to deliver flawless products at the clients' end. Owing to our quality standards,
                                 we have become the foremost choice of our clients across the globe.<br>
-				Under the proficient guidance of our mentor, "Mr. Darshan Parekh" , we have been able to establish ourselves as the leading name indulged
-				in offering superior quality products.
+                Under the proficient guidance of our mentor, "Mr. Darshan Parekh" , we have been able to establish ourselves as the leading name indulged
+                in offering superior quality products.
                             </span></p>
                         <label for="post-1" class="read-more-trigger"></label>
                     </div>
-		</div>
+        </div>
 
         <h2 id="reviews">What people are saying about us</h2>
         <div class="reviews">
@@ -233,7 +308,7 @@
             <div class="review-content-wrapper">
                 <div class="review-content">
                     Quisque aliquet ornare nunc in viverra. Nullam ornare molestie ligula in luctus.
-					Suspendisse ac cursus elit. In congue mattis felis, non hendrerit orci dictum id.</p>
+                    Suspendisse ac cursus elit. In congue mattis felis, non hendrerit orci dictum id.</p>
                 </div><!-- /.review-content -->
             </div><!-- /.review-content-wrapper -->
 
@@ -267,7 +342,7 @@
             <div class="review-content-wrapper">
                 <div class="review-content">
                     Suspendisse ac cursus elit. In congue mattis felis, non hendrerit orci dictum id.
-					Duis et magna vel est tempus vehicula vitae sit amet enim. Sed vitae ligula congue.</p>
+                    Duis et magna vel est tempus vehicula vitae sit amet enim. Sed vitae ligula congue.</p>
                 </div><!-- /.review-content -->
 
 
@@ -332,14 +407,10 @@
             <div class="detail-follow">
                 <h5>Follow Us:</h5>
                 <div class="follow-wrapper">
-                  <a href="" title="Facebook"><i class="fa fa-facebook-square fa-2x fa-secondary"></i></a>
-                  <a href="" title="Twitter"><i class="fa fa-twitter-square fa-2x fa-secondary"></i></a>
-                  <a href="" title="Linkedin"><i class="fa fa-linkedin-square fa-2x fa-secondary"></i></a>
-                  <a href="" title="Skype"><i class="fa fa-skype fa-2x fa-secondary"></i></a>
-                  <a href="" title="Whatsapp"><i class="fa fa-whatsapp fa-2x fa-secondary"></i></a>
-                  <a href="" title="QQ"><i class="fa fa-qq fa-2x fa-secondary"></i></a>
-                  <a href="" title="QQ"><i class="fa fa-google-plus-square fa-2x fa-secondary"></i></a>
-                  <a href="" title="QQ"><i class="fa fa-instagram fa-2x fa-secondary"></i></a>
+                    <a class="follow-btn facebook" href="#"><i class="fa fa-facebook"></i></a>
+                    <a class="follow-btn youtube" href="#"><i class="fa fa-youtube"></i></a>
+                    <a class="follow-btn twitter" href="#"><i class="fa fa-twitter"></i></a>
+                    <a class="follow-btn google-plus" href="#"><i class="fa fa-google-plus"></i></a>
                 </div><!-- /.follow-wrapper -->
             </div><!-- /.detail-follow -->
         </div>
@@ -386,7 +457,7 @@
                             <li><p><span class="name">Sun</span><span class="hours">Closed</span></p></li>
                         </ul>
             </div>
-    	</div>
+        </div>
     </div>
 </div>
 
@@ -463,7 +534,7 @@
                 </div>
             </div>
         </div>
-		<div class="col-sm-12">
+        <div class="col-sm-12">
         <h2>Submit a Review</h2>
 
         <form class="background-white p20 add-review" method="post" action="?">
@@ -495,29 +566,29 @@
                     <input type="radio" value="5" name="food" id="rating-food-5">
                     <label for="rating-food-5"></label>
 
-					</div><!-- /.col-sm-3 -->
+                    </div><!-- /.col-sm-3 -->
 
-				</div><!-- /.row -->
+                </div><!-- /.row -->
 
-				<div class="row">
-					<div class="form-group col-sm-12">
-						<label for="">Your Review</label>
-						<textarea class="form-control" rows="5" id=""></textarea>
-					</div><!-- /.col-sm-6 -->
+                <div class="row">
+                    <div class="form-group col-sm-12">
+                        <label for="">Your Review</label>
+                        <textarea class="form-control" rows="5" id=""></textarea>
+                    </div><!-- /.col-sm-6 -->
 
 
-					<div class="col-sm-7">
-						<p>Required fields are marked <span class="required">*</span></p>
-					</div><!-- /.col-sm-8 -->
-					<div class="col-sm-5">
-						<button class="btn btn-primary btn-block" type="submit"><i class="fa fa-star"></i>Submit Review</button>
-					</div><!-- /.col-sm-4 -->
-				</div><!-- /.row -->
-				</form>
-			</div><!-- /.col-* -->
-		</div><!-- /.row -->
+                    <div class="col-sm-7">
+                        <p>Required fields are marked <span class="required">*</span></p>
+                    </div><!-- /.col-sm-8 -->
+                    <div class="col-sm-5">
+                        <button class="btn btn-primary btn-block" type="submit"><i class="fa fa-star"></i>Submit Review</button>
+                    </div><!-- /.col-sm-4 -->
+                </div><!-- /.row -->
+                </form>
+            </div><!-- /.col-* -->
+        </div><!-- /.row -->
 
-	</div><!-- /.container -->
+    </div><!-- /.container -->
 
 
 </div><!-- /.col-sm-5 -->

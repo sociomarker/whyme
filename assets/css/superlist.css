@@ -1385,10 +1385,6 @@ a.bg-danger:hover,
 a.bg-danger:focus {
   background-color: #e4b9b9; }
 
-.page-header {
-  padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee; }
 
 ul,
 ol {
@@ -6297,15 +6293,15 @@ button.close {
       display: block;
       margin: 20px 0px 0px 0px; } }
 
-.page-header {
-  border: 0px;
-  margin: 60px 0px 20px;
-  padding-top: 10px;
-  text-align: left;
-}
-  .page-header h1 {
+      .page-header {
+        padding-bottom: 1px;
+        margin: 30px 0px;
+        border-bottom: 1px solid #eeeeee;
+      }
+
+.page-header h1 {
     color: #363636;
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 300;
     margin: 0px;
     padding: 0px;
@@ -8426,7 +8422,7 @@ h2.widgettitle {
 
 .card-simple-price {
   background-color: #006699;
-  bottom: 35%;
+  bottom: 90px;
   color: #fff;
   font-size: 13px;
   left: 18%;
@@ -8439,8 +8435,10 @@ h2.widgettitle {
 
 .card-row {
   background-color: #fff;
-  margin: 0px 0px 30px 0px; }
-  .card-row:last-child {
+  margin: 0px 0px 30px 0px;
+}
+
+.card-row:last-child {
     margin-bottom: 0px; }
 
 .card-row-inner {
@@ -8477,7 +8475,7 @@ h2.widgettitle {
 
 .card-row-title {
   font-size: 18px;
-  margin: 20px 0px 5px 0px;
+  margin: 0px 0px 20px 0px;
   padding: 0px; }
   .card-row-title a {
     color: #363636; }
@@ -10844,11 +10842,30 @@ ol li {
 
 .home-list{
   height:200px !important;
-}
-.home-button{
-  margin-bottom: 20px;
+  background-color: white;
+  display:table-cell;
+	vertical-align:middle;
+	text-align:center;
 }
 
-.prd-search{
-  height: 100px !important;
+/* Sticky navigation */
+#navbar {
+  background-color: #fffff;
+  position: fixed;
+  z-index: 20;
+  top: 100px;
+  width: 100%;
+  display:block;
+}
+
+.companyblock{
+  margin-bottom: 15px !important;
+}
+
+.pointer{ cursor: pointer; }
+
+.mobile-search-button{
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
 }

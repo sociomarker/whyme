@@ -1,0 +1,1329 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <link href="http://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet" type="text/css">
+    <link href="assets/libraries/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/libraries/owl.carousel/assets/owl.carousel.css" rel="stylesheet" type="text/css" >
+    <link href="assets/libraries/colorbox/example1/colorbox.css" rel="stylesheet" type="text/css" >
+    <link href="assets/libraries/bootstrap-select/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/libraries/bootstrap-fileinput/fileinput.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/superlist.css" rel="stylesheet" type="text/css" >
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.png">
+
+ <style>
+
+                    #navbar {
+                      background-color: #fffff;
+                      position: fixed;
+                      z-index: 20;
+                      top: 100px;
+                      width: 100%;
+                      display:block;
+                    }
+
+
+                    /* The Modal (background) */
+                    .modal {
+                        display: none; /* Hidden by default */
+                        position: fixed; /* Stay in place */
+                        z-index: 1; /* Sit on top */
+                        padding-top: 100px; /* Location of the box */
+                        left: 0;
+                        top: 0;
+                        width: 100%; /* Full width */
+                        height: 100%; /* Full height */
+                        overflow: auto; /* Enable scroll if needed */
+                        background-color: rgb(0,0,0); /* Fallback color */
+                        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                    }
+
+
+                    /* Modal Content */
+                    .modal-content {
+                        background-color: #fefefe;
+                        margin: auto;
+                        padding: 20px;
+                        border: 1px solid #888;
+                        width: 80%;
+                    }
+
+
+                    /* The Close Button */
+                    .close {
+                        color: #aaaaaa;
+                        float: right;
+                        font-size: 28px;
+                        font-weight: bold;
+                    }
+
+
+                    .close:hover,
+                    .close:focus {
+                        color: #000;
+                        text-decoration: none;
+                        cursor: pointer;
+                    }
+
+
+                    /* Fixed sidenav, full height */
+                    .sidenav {
+                        background-color: #ffffff;
+                    }
+
+
+                    .sidenav2 {
+                        background-color: #ffffff;
+                            margin-left: 35%; /* Same as the width of the sidenav */
+                        font-size: 13px; /* Increased text to enable scrolling */
+                    }
+
+
+
+               .sidenav3 {
+                        background-color: #ffffff;
+                            margin-left: 300px; /* Same as the width of the sidenav */
+                        font-size: 13px; /* Increased text to enable scrolling */
+                    }
+
+
+                    .column {
+                        float: left;
+                        width: 50%;
+
+                    }
+
+                    .column1 {
+                        float: left;
+                        width: 100%;
+
+                    }
+
+                    .row::after {
+                        content: "";
+                        clear: both;
+                    }
+
+                    #changingpart{
+                      background-color: #ffffff;
+                   }
+
+                   .hidden{
+                       display:none;
+                    }
+                    .unhidden{
+                        display:block;
+                    }
+</style>
+<title>India Fastener - Connecting the Fasteners from India to the World</title>
+</head>
+
+
+<body class="">
+
+<div class="page-wrapper">
+   <header class="header ">
+    <div class="header-wrapper">
+        <div class="container">
+            <div class="header-inner">
+                <div class="header-logo">
+                    <a href="/">
+                        <img src="assets/img/India-Fastener.jpg" alt="Logo" class="img-circle" >
+                        <span>India Fastener</span>
+                    </a>
+                </div><!-- /.header-logo -->
+
+                <div class="header-content">
+                    <div class="header-bottom">
+<ul class="header-nav-primary nav nav-pills navbar-collapse collapse" aria-expanded='false' style="height: 5px;">
+    <li class="active">
+        <a href="index.html">Home</a>
+    </li>
+    <li class="">
+        <a href="/blog/about-us/" target="_blank">About Us</a>
+    </li>
+    <li>
+        <a href="/blog/" target="_blank">Blog </a>
+    </li>
+    <li>
+        <a href="/blog/download-india-fastener-application/" target="_blank">Download App</a>
+    </li>
+    <li>
+
+            <!--when clicked on get best price-->
+                               <button class="featured-menu" id = "myBtn">Get best price </button>
+                               <!-- The Modal -->
+                            <div id="myModal" class="modal">
+
+                              <!-- Modal content -->
+                              <div class="modal-content">
+                                <span class="close">&times;</span>
+
+
+
+                          <div class = "modal-header">
+<div id = "starting">
+<div class="row">
+<div class="col-xs-2">
+<img src="assets/img/main/img_avatar.png" style="width:30px"> Welcome User
+</div>
+  <div class ="sidenav2">
+
+                             <div class="col-xs-10">
+                        <img id ="one" src="assets/img/main/1.png" style="width:25px">Basic Info--------<img id = "two" src="assets/img/main/2.png" style="width:20px">Requriment Details--------<img id ="three" src="assets/img/main/3.png" style="width:20px">Additional Details.
+                          </div>
+                          </div>
+                          </div>
+</div>
+
+
+
+<div id = "first">
+<div class="row">
+<div class="col-xs-2">
+<img src="assets/img/main/img_avatar.png" style="width:30px"> Welcome User
+</div>
+  <div class ="sidenav2">
+                            <div class="col-xs-10">
+                             <img id ="one" src="assets/img/main/tick.jpg" style="width:25px">Basic Info--------<img id = "two" src="assets/img/main/2.png" style="width:20px">Requriment Details--------<img id ="three" src="assets/img/main/3.png" style="width:20px">Additional Details.
+                             </div>
+                             </div>
+                             </div>
+
+</div>
+
+<div id = "second">
+<div class="row">
+<div class="col-xs-2">
+<img src="assets/img/main/img_avatar.png" style="width:30px"> Welcome User
+</div>
+  <div class ="sidenav2">
+                        <div class="col-xs-10">
+                   <img id ="one" src="assets/img/main/tick.jpg" style="width:25px">Basic Info--------<img id = "two" src="assets/img/main/tick.jpg" style="width:20px">Requriment Details--------<img id ="three" src="assets/img/main/3.png" style="width:20px">Additional Details.
+                   </div>
+                   </div>
+                   </div>
+</div>
+
+<div id = "third">
+<div class="row">
+<div class="col-xs-2">
+<img src="assets/img/main/img_avatar.png" style="width:30px"> Welcome User
+</div>
+  <div class ="sidenav2">
+              <div class="col-xs-10">
+                      <img id ="one" src="assets/img/main/tick.jpg" style="width:25px">Basic Info--------<img id = "two" src="assets/img/main/tick.jpg" style="width:20px">Requriment Details--------<img id ="three" src="assets/img/main/tick.jpg" style="width:20px">Additional Details.
+                      </div>
+                      </div>
+                      </div>
+</div>
+</div>
+<!-- end of header>
+
+<!-- <img id = "pic" src="assets/img/main/tick.jpg" style="width:25px">-->
+
+                             <div class="modal-body">
+                             <div id = "nutpic">
+                                <div class="sidenav">
+                                 <div class="col-xs-4">
+                                <img src = "assets/img/main/nutimage.jpg"; class = "img-responsive">
+                              </div>
+                                 <br>
+                                </div>
+                                </div>
+<!--when clicked on continue this part will be replaced everytime-->
+                        <div id= "changingpart">
+
+
+                            <div class ="sidenav2">
+                            <div class="row">
+                             <div class="column1">
+                                   <p >We will help you get the right suppliers. Let's get started!</p>
+                                   <br>
+                                <input type="text" placeholder="Enter product service name" class="form-control" required="required">
+                                 <br>
+                                </div>
+
+
+                              <div class="column">
+
+                                   <input type="text" placeholder="Qunatity" class="form-control" required="required">
+                              </div>
+                              <div class="column">
+                             <select class="form-control" title="Select units">
+                                                <option>Kilograms</option>
+                                                <option>Pieces</option>
+                                            </select>
+
+                                            </div>
+
+
+
+                           <div class="column">
+
+                          <br>
+                                             <select class="form-control" title="Approximate order values" >
+                                                <option>Upto 1000</option>
+                                                <option>1000 to 10000</option>
+                                                <option>10000 to 50000</option>
+                                                <option>50000 to 100000</option>
+                                                <option>100000 to 500000</option>
+                                                <option>500000 to 1000000</option>
+                                                <option>More than 1000000</option>
+
+                                            </select>
+                                            </div>
+
+
+                            </div>
+                            </div>
+                            </div>
+
+<!--changeable part ends here-->
+
+<!-- Requirement details part/ when clicked on continue in the basic info-->
+<div id ="basicToRequriements" >
+                  <div class ="sidenav2">
+                            <div class="row">
+                                <p >Fill these details to get the most relevant suppliers</p>
+                             <div class="column">
+
+                                   <br>
+
+                                <input type="text" placeholder="Size" class="form-control" required="required">
+                                 <br>
+                                   <input type="text" placeholder="Qunatity per Pack" class="form-control" required="required">
+                                <br>
+                                  <input type="text" placeholder="Application" class="form-control" required="required">
+
+
+</div>
+                            </div>
+                            </div>
+</div>
+
+<!-- end-->
+
+<!-- Thanking You start-->
+<div id ="thankYou" >
+
+
+<div class ="sidenav2">
+
+
+<p >   <b><h4>THANKING YOU !</h4></b><br>
+</div>
+</p>
+<p align = "center">While we connect you with relevant suppliers, you can view and manage your requirements</p><br>
+<div class ="sidenav2">
+
+<button  class="featured-menu-1" id = "thanks"> Manage Your Requirments </button>
+</div>
+<br>
+<br>
+
+
+
+</div>
+<!-- Thanking You end-->
+
+<!-- loginwithotp start-->
+<div id ="loginwithotp" >
+
+<h4><p style="text-align:center">
+
+
+
+<b>Check your mobile  for a 4 digit OTP sent via SMS and Please enter your OTP &emsp;</b>
+
+<br>
+<br>
+<input type="text" style="width:20%;" placeholder="Enter OTP Here" required="required">
+&emsp;
+<button  class="featured-menu-1" > Submit </button>
+<br>
+<br>
+
+Didn't receive OTP - <a>Resend it.</a>
+&emsp;
+OR &emsp; <a href="login_verification.html" > Login with Password </a>
+
+
+</p></h4>
+</div>
+
+<!-- loginwithotp end-->
+
+
+<!-- requirements to additional-->
+
+<div id ="requirementsToAdditional" >
+                  <div class ="sidenav2">
+                            <div class="row">
+                               <p> Great! We are finding suppliers for your requirement.Add more details for precise results.</p>
+
+
+                                <textarea  rows ="3", cols ="50", placeholder="Enter Requirement Details" ></textarea>
+
+
+                      <input type ="file" name = "question"/>
+
+
+
+<br>
+
+
+
+
+            <select class="form-control" title="Looking for Suppliers"onclick="display()">
+                                                <option>Local</option>
+                                                <option>Anywhere in India</option>
+                                                    <option id = "specificLocation">Any Specific Location</option>
+                                            </select>
+                                  <input type="text" id ="c1" placeholder="CITY 1" style="display:none" />
+                                  <input type="text" id = "c2" placeholder="CITY 2" style="display:none"/>
+                                  <input type="text" id ="c3" placeholder="CITY 3" style="display:none" />
+
+
+<br>
+<br>
+
+                             <select title="Purpose">
+                                                <option>Self use</option>
+                                                <option>Resale</option>
+
+                                            </select>
+
+                                        <br>
+
+                                    <br>
+                             <select class="form-control" title="Frequency">
+                                                <option>One Time</option>
+                                                <option>Daily</option>
+                                                    <option>Weekly</option>
+                                                      <option>Monthly</option>
+                                                        <option>Yearly</option>
+                                            </select>
+<br>
+<br>
+                                              <select class="form-control" title="Preferred Suppliers">
+                                                <option>Manu</option>
+                                                    <option>Expoters </option>
+                                                      <option>Importers </option>
+                                                        <option>Wholesale and Retailers </option>
+                                            </select>
+                                            <br><br>
+
+
+</div>
+
+                            </div>
+                            </div>
+
+
+
+<!-- requirements to additional end-->
+
+<!--footer of the modal-->
+                            <div class="modal-footer">
+
+                            <div id = "footerpart">
+                                <div class ="sidenav">
+                            <div class="row">
+                             <div class="column">
+
+
+                             <p align ="left"><b><u>How it Works</u></b>
+                             <br>
+                             Tell us what you need by filling in the form<br>
+                        Receive Verified supplier
+                        details<br>
+                        Compare and seal the deal
+
+                             </p>
+                             </div>
+                              <div class="column">
+                              <br>
+                              <br>
+                                     <p align = "right"> <button  class="featured-menu-1" id = "continuebuttonid"> &nbsp; &nbsp;&nbsp;Continue &nbsp;&nbsp;&nbsp; </button></p>
+                                     </div>
+                                    </div>
+
+                              </div>
+</div>
+                            </div>
+
+<!--footer ends-->
+
+<!-- modal script-->
+                            <script>
+                            var clicks = 0;
+                            // Get the modal
+                            var modal = document.getElementById('myModal');
+
+                            // Get the button that opens the modal
+                            var btn = document.getElementById("myBtn");
+
+                            // Get the <span> element that closes the modal
+                            var span = document.getElementsByClassName("close")[0];
+
+
+                            // When the user clicks the button, open the modal
+                            btn.onclick = function() {
+                                modal.style.display = "block";
+                                var y = document.getElementById("basicToRequriements");
+                                 y.style.display = "none";
+                                 var z = document.getElementById("requirementsToAdditional");
+                                 z.style.display = "none";
+                                   var t = document.getElementById("thankYou");
+                                    t.style.display = "none";
+                                 var loc = document.getElementById("specificLocation");
+                                 loc.style.display = "none";
+                                 var fir = document.getElementById("first");
+                                 fir.style.display = "none";
+                                  var sec = document.getElementById("second");
+                                 sec.style.display = "none";
+                                  var thi = document.getElementById("third");
+                                 thi.style.display = "none";
+                                  var start = document.getElementById("starting");
+                                 start.style.display = "block";
+
+                                    var otplogin = document.getElementById("loginwithotp");
+                                 otplogin.style.display = "none";
+
+
+
+                            }
+
+                            // When the user clicks on <span> (x), close the modal
+                            span.onclick = function() {
+                                modal.style.display = "none";
+                            }
+
+                            // When the user clicks anywhere outside of the modal, close it
+                            window.onclick = function(event) {
+                                if (event.target == modal) {
+                                    modal.style.display = "none";
+                                }
+                            }
+ var btn9= document.getElementById("continuebuttonid");
+
+ var loginbut= document.getElementById("thanks");
+
+ var x = document.getElementById("changingpart");
+ var y = document.getElementById("basicToRequriements");
+ var z = document.getElementById("requirementsToAdditional");
+var t = document.getElementById("thankYou");
+var start = document.getElementById("starting");
+
+  var fir = document.getElementById("first");
+var sec = document.getElementById("second");
+var thi = document.getElementById("thrid");
+var otplogin = document.getElementById("loginwithotp");
+var np = document.getElementById("nutpic");
+var fp = document.getElementById("footerpart");
+// Get the button that opens the modal
+
+
+                                btn9.onclick =function() {
+                     if(clicks==0){
+
+                                x.style.display = "none";
+                                y.style.display = "block";
+                                z.style.display = "none";
+                                  start.style.display = "none";
+                                  fir.style.display = "block";
+                                //    sec.style.display = "none";
+                                    //  thi.style.display = "none";
+
+                                     clicks = 1;
+
+                        }
+                    else if(clicks==1){
+
+                                x.style.display = "none";
+                                y.style.display = "none";
+                                z.style.display = "block";
+                                  start.style.display = "none";
+                                    fir.style.display = "none";
+                                  sec.style.display = "block";
+
+                                  clicks=2;
+
+                        }
+                        else if(clicks==2){
+                              fp.style.display = "none";
+
+                                 x.style.display = "none";
+                                y.style.display = "none";
+                                z.style.display = "none";
+                                np.style.display = "none";
+                                 t.style.display = "block";
+                                  start.style.display = "none";
+                                    fir.style.display = "none";
+                                  sec.style.display = "none";
+                                  thi.style.display = "block";
+
+
+                        }
+                    }
+
+
+                     loginbut.onclick =function() {
+
+
+                          np.style.display = "none";
+                        otplogin.style.display = "block";
+                           x.style.display = "none";
+                                y.style.display = "none";
+                                z.style.display = "none";
+                                 t.style.display = "none";
+                                  start.style.display = "none";
+                                    fir.style.display = "none";
+                                  sec.style.display = "none";
+                                  thi.style.display = "none";
+
+                                 fp.style.display = "none";
+                     }
+
+
+
+                    function  display() {
+                      document.getElementById("c1").style.visibility = 'visible';
+                       document.getElementById("c2").style.visibility = 'visible';
+                             document.getElementById("c3").style.visibility = 'visible';
+
+                    }
+
+
+</script>
+
+<!-- modal script ends-->
+
+
+
+
+
+
+
+
+
+
+
+    </li>
+    <li>
+        <a href="/login"><span class="featured-menu-1">Free Listing</span> </a>
+    </li>
+</ul>
+
+<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".header-nav-primary">
+    <span class="sr-only">Toggle navigation</span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button>
+
+                    </div><!-- /.header-bottom -->
+                </div><!-- /.header-content -->
+            </div><!-- /.header-inner -->
+        </div><!-- /.container -->
+    </div><!-- /.header-wrapper -->
+</header><!-- /.header -->
+
+
+
+<!--start-->
+
+
+
+
+
+         <div id="navbar">
+      <form class="filter persist-header" method="post" action="?" >
+    <div class="row " id="search">
+        <div class="col-sm-0 col-md-2"></div>
+        <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="form-group">
+                <input type="text" placeholder="Start typing (Company/Product)" class="form-control" required="required">
+            </div><!-- /.form-group -->
+        </div><!-- /.col-* -->
+
+        <div class="col-md-3 col-sm-6 col-xs-6">
+            <div class="form-group">
+                <select class="form-control" title="Location (Optional)">
+                    <option>Mumbai</option>
+                    <option>Bangalore</option>
+                    <option>Calcutta</option>
+                    <option>Hydrabad</option>
+                    <option>Gujarat</option>
+                </select>
+            </div><!-- /.form-group -->
+        </div><!-- /.col-* -->
+
+        <div class=" col-md-3 col-sm-6 col-xs-6">
+            <div class="form-group">
+                <select class="form-control" title="Product Category (Optional)">
+                    <option value="">Automotive</option>
+                    <option value="">Jobs</option>
+                    <option value="">Nightlife</option>
+                    <option value="">Services</option>
+                </select>
+            </div><!-- /.form-group -->
+        </div><!-- /.col-* -->
+        <div class="col-md-1 col-sm-5 col-xs-5">
+            <button type="submit" class="btn btn-primary" style="text-align:left; maring-top:-15px;">Search</button>
+        </div><!-- /.col-* -->
+    </div><!-- /.row -->
+  </form>
+  </div>
+
+
+  <script>
+// When the user scrolls down 500px from the top of the document, slide down the navbar
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 2000|| document.documentElement.scrollTop > 2000) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "0";
+    }
+}
+</script>
+
+
+<!--end-->
+
+    <div class="main">
+        <div class="main-inner">
+                <div class="content">
+
+                    <div class="mt-80">
+    <div class="hero-image">
+    <div class="hero-image-inner" style="background: url('assets/img/main/IndiaFastener-Background.jpg')">
+        <div class="hero-image-content">
+            <div class="container">
+            <div class="col-md-6">
+            <h1>Download Fastener App</h1>
+
+                <p>Access weight count, standard & measurements and company listings <br />
+                through one of the best fastener apps on Android & iOS Application</p>
+            <div class="col-md-6">
+                <a href="#"><img src="assets/img/main/India-Fastener-on-App-Store.png" class="img-responsive"></a>
+            </div>
+            <div class="col-md-6">
+                <a href="#"><img src="assets/img/main/India-Fastener-on-Google-Play.png" class="img-responsive"></a>
+            </div>
+            </div>
+
+            </div><!-- /.container -->
+        </div><!-- /.hero-image-content -->
+        <div class="hero-image-form-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-sm-offset-8 col-lg-4 col-lg-offset-7" id="Search">
+                        <form method="get" action="?">
+                            <h2>Search for Fasteners</h2>
+
+                            <div class="hero-image-keyword form-group ui-widget" >
+                                <input type="text" class="form-control awesomplete" placeholder="Start typing (Company/Product)" required="required">
+                            </div><!-- /.form-group -->
+                            <!-- will be good if we can have location auto-suggest from Google -->
+                            <div class="hero-image-location form-group">
+                                <select class="form-control" title="Location (optional)">
+                                    <option>Mumbai</option>
+                                    <option>Bangalore</option>
+                                    <option>Gujrat</option>
+                                    <option>Kerela</option>
+                                </select>
+                            </div><!-- /.form-group -->
+                            <!-- this will come from the database of categories -->
+                            <div class="hero-image-category form-group">
+                                <select class="form-control" title="Product Category (optional)">
+                                    <option value="">Nut</option>
+                                    <option value="">Bolts</option>
+                                    <option value="">Washer</option>
+                                </select>
+                            </div><!-- /.form-group -->
+                            <button type="submit" class="btn btn-primary btn-block">Search</button>
+
+                        </form>
+
+
+
+                    </div><!-- /.col-* -->
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </div><!-- /.hero-image-form-wrapper -->
+    </div><!-- /.hero-image-inner -->
+</div><!-- /.hero-image -->
+
+</div>
+
+<div class="container">
+  <div class="page-header">
+      <h1>Recently Viewed Fastener Companies</h1>
+  </div><!-- /.page-header -->
+  <div class="cards-simple-wrapper">
+      <div class="row">
+              <div class="col-sm-6 col-md-3">
+                <a href="finalLanding.html">
+                  <img src="assets/img/listing/logo-1.png" class="img-responsive home-list" >
+                </a>
+                  <h4>AFS Fastener</h4>
+                  <div class="card-row-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                  </div><!-- /.card-row-rating -->
+
+                  <div>
+                    <a href="#" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#quickEnquiry">Enquire now</a>
+                    <a href="finalLanding.html" class="btn btn-xs second-button">View More</a>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a href="finalLanding.html">
+                  <img src="assets/img/listing/viral-fastener.png" class="img-responsive home-list" >
+                </a>
+                  <h4>Viral Fasteners</h4>
+                  <div class="card-row-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                  </div><!-- /.card-row-rating -->
+
+                  <div>
+                    <a href="#" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#quickEnquiry">Enquire now</a>
+                    <a href="finalLanding.html" class="btn btn-xs second-button">View More</a>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a href="finalLanding.html">
+                  <img src="assets/img/listing/logo.png" class="img-responsive home-list" >
+                </a>
+                  <h4>Arun Fastener</h4>
+                  <div class="card-row-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                  </div><!-- /.card-row-rating -->
+
+                  <div>
+                    <a href="#" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#quickEnquiry">Enquire now</a>
+                    <a href="finalLanding.html" class="btn btn-xs second-button">View More</a>
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a href="finalLanding.html">
+                  <img src="assets/img/listing/logo.png" class="img-responsive home-list" >
+                </a>
+                  <h4>Arun Fastener</h4>
+                  <div class="card-row-rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                  </div><!-- /.card-row-rating -->
+
+                  <div>
+                    <a href="#" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#quickEnquiry">Enquire now</a>
+                    <a href="finalLanding.html" class="btn btn-xs second-button">View More</a>
+                  </div>
+              </div>
+
+      </div><!-- /.row -->
+  </div><!-- /.cards-simple-wrapper -->
+
+
+
+<div class="page-header">
+    <h1>Recently Viewed Fastener Companies</h1>
+</div><!-- /.page-header -->
+
+
+
+<div class="cards-simple-wrapper">
+    <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/listing/logo.png">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="listing-detail.html">MS Brand Fasteners</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <!-- <a href="#" class="fa fa-bookmark-o"></a> -->
+                                <a href="listing-detail.html" class="fa fa-search"></a>
+                                <!-- <a href="#" class="fa fa-heart-o"></a> -->
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+
+            </div><!-- /.col-* -->
+
+
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/product-3.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="listing-detail.html">Vico Fasteners</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <!-- <a href="#" class="fa fa-bookmark-o"></a> -->
+                                <a href="listing-detail.html" class="fa fa-search"></a>
+                                <!-- <a href="#" class="fa fa-heart-o"></a> -->
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+
+                        <div class="card-simple-price">Verified</div>
+
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+
+
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/product-4.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="listing-detail.html">JB Trai</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                 <!-- <a href="#" class="fa fa-bookmark-o"></a> -->
+                                <a href="listing-detail.html" class="fa fa-search"></a>
+                                <!-- <a href="#" class="fa fa-heart-o"></a> -->
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+
+
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/product-5.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="listing-detail.html">Boat your cat score</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                 <!-- <a href="#" class="fa fa-bookmark-o"></a> -->
+                                <a href="listing-detail.html" class="fa fa-search"></a>
+                                <!-- <a href="#" class="fa fa-heart-o"></a> -->
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+
+
+
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+
+    </div><!-- /.row -->
+</div><!-- /.cards-simple-wrapper -->
+
+<div class="page-header">
+    <h1>Featured Fastener Companies</h1>
+</div><!-- /.page-header -->
+
+<div class="cards-simple-wrapper">
+    <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/product-2.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="listing-detail.html">MS Brand Fasteners</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <!-- <a href="#" class="fa fa-bookmark-o"></a> -->
+                                <a href="listing-detail.html" class="fa fa-search"></a>
+                                <!-- <a href="#" class="fa fa-heart-o"></a> -->
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+                        <div class="card-simple-price">Verified</div>
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/product-3.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="listing-detail.html">Vico Fasteners</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                <!-- <a href="#" class="fa fa-bookmark-o"></a> -->
+                                <a href="listing-detail.html" class="fa fa-search"></a>
+                                <!-- <a href="#" class="fa fa-heart-o"></a> -->
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+
+                        <div class="card-simple-price">Verified</div>
+
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+
+
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/product-4.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="listing-detail.html">JB Trai</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                 <!-- <a href="#" class="fa fa-bookmark-o"></a> -->
+                                <a href="listing-detail.html" class="fa fa-search"></a>
+                                <!-- <a href="#" class="fa fa-heart-o"></a> -->
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+                        <div class="card-simple-price">Verified</div>
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+
+
+
+            <div class="col-sm-6 col-md-3">
+                <div class="card-simple" data-background-image="assets/img/tmp/product-5.jpg">
+                    <div class="card-simple-background">
+                        <div class="card-simple-content">
+                            <h2><a href="listing-detail.html">Boat your cat score</a></h2>
+                            <div class="card-simple-rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="-fa fa-star"></i>
+                            </div><!-- /.card-rating -->
+
+                            <div class="card-simple-actions">
+                                 <!-- <a href="#" class="fa fa-bookmark-o"></a> -->
+                                <a href="listing-detail.html" class="fa fa-search"></a>
+                                <!-- <a href="#" class="fa fa-heart-o"></a> -->
+                            </div><!-- /.card-simple-actions -->
+                        </div><!-- /.card-simple-content -->
+                        <div class="card-simple-price">Verified</div>
+
+
+
+                    </div><!-- /.card-simple-background -->
+                </div><!-- /.card-simple -->
+            </div><!-- /.col-* -->
+
+    </div><!-- /.row -->
+</div><!-- /.cards-simple-wrapper -->
+
+
+
+<div class="page-header">
+            <h1>Why India Fastener?</h1>
+        </div><!-- /.page-header -->
+</div>
+    <div class="block background-black-light fullwidth">
+    <div class="container">
+        <div class="row">
+
+    <div class="col-sm-4">
+        <div class="box">
+            <div class="box-icon">
+                <i class="fa fa-flask"></i>
+            </div><!-- /.box-icon -->
+
+            <div class="box-content">
+                <h2>Always Improving</h2>
+                <p>Our dedicated team of developers are continuously working on improving this platform.</p>
+
+                <!-- <a href="#">Read More <i class="fa fa-chevron-right"></i></a> -->
+            </div><!-- /.box-content -->
+        </div>
+
+    </div><!-- /.col-sm-4 -->
+
+    <div class="col-sm-4">
+        <div class="box">
+            <div class="box-icon">
+                <i class="fa fa-thumbs-o-up"></i>
+            </div><!-- /.box-icon -->
+
+            <div class="box-content">
+                <h2>Quality Listings</h2>
+                <p>We list only verified fastener retailers and manufacturers thus ensuring that you get the most out of our platform.</p>
+
+                <!-- <a href="#">Read More <i class="fa fa-chevron-right"></i></a> -->
+            </div><!-- /.box-content -->
+        </div>
+
+    </div><!-- /.col-sm-4 -->
+
+    <div class="col-sm-4">
+        <div class="box">
+            <div class="box-icon">
+                <i class="fa fa-life-ring"></i>
+            </div><!-- /.box-icon -->
+
+            <div class="box-content">
+                <h2>Speed of Light</h2>
+                <p>We believe in speed; thus ensure that you get the desired results as quickly as possible.</p>
+
+                <!-- <a href="#">Read More <i class="fa fa-chevron-right"></i></a> -->
+            </div><!-- /.box-content -->
+        </div>
+    </div><!-- /.col-sm-4 -->
+</div><!-- /.row -->
+</div><!-- /.content -->
+    </div><!-- /.block -->
+
+
+<div class="container">
+    <div class="page-header">
+            <h1>Browse by Fastener Categories</h1>
+    </div><!-- /.page-header -->
+
+
+    <div class="block background-white fullwidth">
+
+<div class="categories">
+    <ul>
+        <li>
+            <a href="#" class="categories-link"> Nuts</a>
+        </li>
+        <li>
+            <a href="#" class="categories-link"> Bolts</a>
+        </li>
+        <li>
+            <a href="#" class="categories-link"> Screws</a>
+        </li>
+        <li>
+            <a href="#" class="categories-link"> Stud</a>
+        </li>
+        <li>
+            <a href="#" class="categories-link"> Rivets</a>
+        </li>
+        <li>
+            <a href="#" class="categories-link"> Washers</a>
+        </li>
+
+    </ul>
+</div><!-- /.categories -->
+
+    </div>
+    </div>
+
+
+                </div><!-- /.content -->
+        </div><!-- /.main-inner -->
+    </div><!-- /.main -->
+
+<div class="row">
+    <div class="block background-secondary fullwidth" style="margin-bottom: 0px !important">
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-12">
+        <div class="contact-info-wrapper">
+            <h2>Do You Have Any Questions?</h2>
+
+            <div class="contact-info">
+                <span class="contact-info-item">
+                    <i class="fa fa-at"></i>
+                    <span>info@indiafastener.com</span>
+                </span><!-- /.contact-info-item -->
+
+                <span class="contact-info-item">
+                    <i class="fa fa-phone"></i>
+                    <span>+91-7666-751-751</span>
+                </span><!-- /.contact-info-item -->
+            </div><!-- /.contact-info-->
+        </div><!-- /.contact-info-wrapper -->
+    </div><!-- /.col-* -->
+</div><!-- /.row -->
+</div>
+</div>
+
+</div>
+
+    <footer class="footer">
+
+    <div class="footer-top">
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-sm-8">
+                    <h2>About India Fastener</h2>
+                    <p>
+                    India Fastener is a Business Aggregator for Fasteners & provides Std & Weight Count Solution.
+                    <br />
+                    India Fastener has been started off with an initiative to link the ever growing field of technology with the world of fasteners. We have started off with an mobile solutions that facilitates you while handling your day to day weigh count issues. We already have the app for Android and iOS.
+                    <br />
+                    In all our efforts the core focus is innovation, and improving products for the end users. We strive extra mile to make sure you get the best and the solution helps you to focus on your core business.
+                    <br />
+                    We hope you will like our application. We are open to feedback and suggests, to improve this application.
+                    </p>
+                </div><!-- /.col-* -->
+
+                <div class="col-sm-4">
+                    <h2>Contact Information</h2>
+                    <p>
+                        +91-7666-751-751 | <a href="#" style="text-decoration: none !important;">info@indiafastener.com</a>
+                    </p>
+                    <br />
+                    <ul class="social-links nav nav-pills">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul><!-- /.header-nav-social -->
+                </div><!-- /.col-* -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.footer-top -->
+
+    <!-- Modal pop-up for quick enquiry -->
+    <!-- Modal -->
+    <div id="quickEnquiry" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Quick Enquiry</h4>
+          </div>
+          <div class="modal-body">
+            <div class="detail-enquire-form background-white">
+                <form method="post" id="myForm">
+                    <div class="form-group">
+                        <label for="">Enquire with <span class="required">*</span></label>
+                        <input type="text" class="form-control" name="cname" value="Arun Fasteners" id="" required="required" readonly="readonly">
+                    </div><!-- /.form-group -->
+                    <div class="form-group">
+                        <label for="">Name <span class="required">*</span></label>
+                        <input type="text" class="form-control" name="name" id="" required="required">
+                    </div><!-- /.form-group -->
+
+                    <div class="form-group">
+                        <label for="">Email <span class="required">*</span></label>
+                        <input type="email" class="form-control" name="email" id="" required="required">
+                    </div><!-- /.form-group -->
+                    <div class="form-group">
+                        <label for="">Contact no.<span class="required">*</span></label>
+                        <input type="number" class="form-control" name="mobile" id="" required="required">
+                    </div><!-- /.form-group -->
+
+                    <div class="form-group">
+                        <label for="">Message / Product requirement <span class="required">*</span></label>
+                        <textarea class="form-control" name="message" id="" rows="3" required="required"></textarea>
+                    </div><!-- /.form-group -->
+
+                    <p>Required fields are marked <span class="required">*</span></p>
+
+                    <button class="btn btn-primary btn-block" type="submit" ><i class="fa fa-paper-plane"></i>Send Message</button>
+                </form>
+            </div><!-- /.detail-enquire-form -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-left">
+                &copy; 2018 All rights reserved. Created by <a href="/">India Fastener</a>.
+            </div><!-- /.footer-bottom-left -->
+
+            <div class="footer-bottom-right">
+                <ul class="nav nav-pills">
+
+                    <li><a href="http://indiafasteners.com/blog/terms-and-conditions/" target="_blank">Terms &amp; Conditions</a></li>
+                    <li><a href="http://indiafasteners.com/blog/about-us/" target="_blank">About Us</a></li>
+                    <li><a href="http://indiafasteners.com/blog/contact-us/" target="_blank">Contact Us</a></li>
+                    <li><a href="http://indiafasteners.com/blog/" target="_blank">Blog</a></li>
+                </ul><!-- /.nav -->
+            </div><!-- /.footer-bottom-right -->
+        </div><!-- /.container -->
+    </div>
+</footer><!-- /.footer -->
+</div><!-- /.page-wrapper -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="assets/libraries/bootstrap-select/bootstrap-select.min.js" type="text/javascript"></script>
+<script src="assets/js/superlist.js" type="text/javascript"></script>
+<script type="javascript">
+$(function(){
+    $('#myForm').on('submit', function(e){
+      e.preventDefault();
+      $.post('#',
+         $('#myForm').serialize(),
+         function(data, status, xhr){
+           // do something here with response;
+         });
+    });
+});
+</script>
+
+</body>
+</html>
